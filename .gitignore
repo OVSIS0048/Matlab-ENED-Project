@@ -1,0 +1,40 @@
+# MATLAB
+*.asv
+*.m~
+*.autosave
+
+# MATLAB preferences and workspace files
+matlab.prf
+*.mat
+
+# Simulink cache and generated files
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*_rapid_rtw/
+*_slrt_rtw/
+*_psp_rtw/
+*_sfprj/
+*_sfun/
+*_slcc/
+*_mdlref_rtw/
+*_tmwinternal/
+
+# Code generation and build artifacts
+codegen/
+*.mex*.*
+*.mex*
+*.dll
+*.so
+*.dylib
+
+# Simulink reports and generated documentation
+*.slxc
+*.slxc/
+slprj/
+
+# Temporary and editor files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
